@@ -9,7 +9,7 @@ class Blog_ATS(unittest.TestCase):
        self.driver = webdriver.Chrome()
 
    def test_blog(self):
-       user = "tai2"
+       user = "instructor"
        pwd = "maverick1a"
        driver = self.driver
        driver.maximize_window()
